@@ -18,9 +18,12 @@
     margin-bottom: 14px;
 }
 
+ul li a{
+    color: #000000;
+}
 
 li{
-    color: #000000;
+   
    margin-left: 20px; 
     float: left;
     font-size: 18px;
@@ -48,7 +51,7 @@ header{
 .statia{
     width: 457px;
     height: 200px;
-    
+    margin-top: 34px;
     
     float: left;
 }
@@ -91,24 +94,50 @@ article{
     height: 180px;
 }
 
-footer{
-    
-    clear:left;
-    font-size: 12px;
+footer p{
+    margin: 0 auto;
+    clear:both;
+    width: 90%;
+    padding-top: 200px;
+    margin-right: 45px;
+    padding-bottom: 30px;
+}
+
+.copy{
+    margin: 0 auto;
+    clear:both;
+    width: 90%;
+    padding-top: 80px;
+    margin-right: 45px;
+    padding-bottom: 30px;
 }
 
 
-
-
-.srulistatia{
+.srulistatia1{
     width: 1400px;
     margin: 0 auto;
     height: 741px;
     background-color: #FF9900;
     padding-top: 55px;
     padding-left: 15px;
-    
-    /* float: left; */
+}
+
+.srulistatia2{
+    width: 1400px;
+    margin: 0 auto;
+    height: 741px;
+    background-color: #FFC700;
+    padding-top: 55px;
+    padding-left: 15px;
+}
+
+.srulistatia3{
+    width: 1400px;
+    margin: 0 auto;
+    height: 741px;
+    background-color: #FFE600;
+    padding-top: 55px;
+    padding-left: 15px;
 }
 
 .konk{
@@ -123,3 +152,4 @@ footer{
     float: left;
     margin-bottom: 20px;
 }
+
